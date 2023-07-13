@@ -1,0 +1,125 @@
+/* This is CSS-organization */
+
+body {background-image: url("img/bgweb.png");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;}
+
+/* Main Layout */
+.page {background-color:none;
+       width:95%;
+       margin:auto;
+       padding:20px;}
+
+
+/* Header section */
+.main-header {background-color:none;
+	      width:100%;
+              padding:0px;
+}
+
+.banner {width:100%;}
+
+
+[class|="nav-main"] {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8FBC8F;}
+
+.nav-main li {float:left;
+}
+
+.nav-main li a {display: block;
+  	        color: white;
+  	        text-align: center;
+		text-size:10px;
+		text-transform: uppercase;
+  	        padding: 12px 10px;
+  	        text-decoration: none;
+}
+
+.nav-main li a:hover:not(.active) {background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+ 
+/* Main section */
+main {background-color:#F0FFF0;
+      width:80%;
+      float:left;
+      padding:70px;
+      border-radius:15px;}
+
+.container {width:80%;}
+
+h1 {font-family:georgia;
+    font-size:250%;
+    color:#CD5C5C;
+    text-shadow:2px 2px 7px #000000;
+}
+
+.bottom {color:gold;
+font-family:tahoma;
+font-size:180%;
+text-align:center;
+text-shadow:2px 2px 7px #000000;}
+
+#id-h2 {
+    color:blue;
+    font-family:"Courier new",monospace;
+    font-size:130%;
+    text-align:center;
+    text-decoration:underline;}
+
+p {font-family:papyrus;
+   line-height:1.3;
+   text-align:center;
+}
+
+
+
+/* Sidebar section */
+.sidebar {background-color:#F0FFF0;
+          width:20%; 
+	  height:1649px; 
+	  float:right;
+          padding:30px;
+	  border-radius: 15px;
+}
+
+#id-para01 {font-family:"Lucida handwriting",cursive;
+	    font-size:150%;
+	    text-indent:0px;
+	    color:maroon;}
+
+#id-para02 {font-family:"Monaco",monospace;
+	    text-indent:0px;
+            line-height:1.2;}
+
+#id-para03 {font-family:arial;
+	    text-indent:0px;
+            line-height:1.3;}
+
+#id-sidetxt {text-align:center;
+	     color:white;
+             animation: mymove 3s infinite;}
+@keyframes mymove {
+  from {background-color: red;}
+  to {background-color: blue;}
+}
+
+
+/* Footer section */
+.main-footer {background-color:#F0FFF0;
+              clear:both;
+              padding:10px;
+	      border-radius: 15px;}
+
+#id-footer {font-family:arial;
+	    text-indent:0px;
+            line-height:0.9;}
